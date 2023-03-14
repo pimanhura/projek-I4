@@ -1,0 +1,45 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+/* Header  */ 
+header{
+  background-color: rgba(34, 49, 52, 0.9);  
+}
+
+
+/* Main  */
+
+
+
+/* Body  */
+
+
+
+/* Formulir */
+
+
+
+/* Footer  */
