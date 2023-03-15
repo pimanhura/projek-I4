@@ -26,13 +26,95 @@ a {
 
 /* Header  */ 
 header{
-  background-color: rgba(34, 49, 52, 0.9);  
+  background-color: rgba(139, 93, 5, 0.6);  
+  height: 70px;
+}
+
+.navbar{
+   width: 85%;
+   margin: auto;
+   padding: 20px 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo{
+   font-size: 30px;
+   color: white;
+   font-weight: bold;
+   width: 120px;
+   cursor: pointer;
+}
+
+.navbar ul li{
+   list-style: none;
+   display: inline-block;
+   margin: 0 20px;
+   position: relative;
+   padding: 5px 5px;
+}
+
+.navbar ul li:active{
+  background-color: rgba(151, 131, 94, 0.3);
+  border-radius: 3px;
+}
+
+.navbar ul li a{
+   font-size: 15px;
+   color: white;
+   font-weight: bold;
+   text-transform: capitalize;
+   display: block;
+}
+
+.navbar ul li::after{
+   content: '';
+   height: 3px;
+   width: 0;
+   background: green;
+   position: absolute;
+   left: 0;
+   bottom: -10px;
+   transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+   width: 100%;
+}
+
+.label{
+   width: 100%;
+   font-size: 8px;
+   margin-left: 350px;
+   color: white;
+   position: absolute;
+}
+
+.mx-auto{
+   width: 800px;
 }
 
 
 /* Main  */
+.wrapper{
 
+}
 
+.main{
+  background-image: url(assets/main/Kinds-of-Vacation-780x470.jpg);
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.main-container{
+  padding: 10px 0 100px 0;
+}
+
+.main-container h1{
+  float: right;
+  color: white;
+}
 
 /* Body  */
 
