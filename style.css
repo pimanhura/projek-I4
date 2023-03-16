@@ -441,3 +441,26 @@ footer p {
   margin-bottom: 10px;
   font-size: 1.1em;
 }
+
+
+@media screen and (max-width: 670px) {
+
+  .navbar{
+    width: 100%;
+  }
+
+  .logo{
+    font-size: 20px;
+    color: white;
+    top: 0;
+  }
+
+  .navbar ul li {
+    width: 0%;
+    /*margin-left: 500px;*/
+  }
+
+  .navbar {
+    justify-content: flex-start;
+  }
+}
