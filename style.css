@@ -312,7 +312,7 @@ img {
   display: block;
   width:80%;
   height: fit-content;
-  margin: auto;
+  margin: 100px auto;
   padding:0 50px;
   background-image: linear-gradient(to bottom left, #00B4D8,#CAF0F8);
   background-size: cover;
