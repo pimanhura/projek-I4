@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
   <title>TravelDay</title>
 </head>
 
@@ -24,31 +25,188 @@
     </div>
   </header>
 
-  <div class="wrapper">
-    <div class="main">
-      <div class="main-container">
-        <h1>Selamat datang di...</h1>
+  <div>
+    <!-- Start Main -->
+    <div class="main-wrapper">
+      <!-- untuk paket dalam negeri -->
+      <div class="main">
+        <img class='main-img' src="assets/main/travel.png" />
+        <div class="kolom">
+          <p class="deskripsi">Penawaran khusus bulan ini</p>
+          <h2>Paket Dalam Negeri</h2>
+          <p>Penawaran paket wisata domestik ke berbagai destinasi wilayah di Indonesia untuk mengisi liburan akhir
+            tahun. Berikut adalah rincian fasilitas yang kami tawarkan:</p>
+          <ul>
+            <li>Bus pariwisata dengan kapasitas 60 seat per bus.</li>
+            <li> Paket wisata 4 hari 4 malam.</li>
+            <li>Reservasi hotel (bisa disesuaikan kebutuhan).</li>
+            <li>Potongan harga tiket untuk masuk museum, kebun binatang, dan Paket outbound.</li>
+            <li>Konsumsi 3 kali sehari dan 1 snack.</li>
+          </ul>
+          <p><a href="" class="tbl-pink">Pelajari Lebih Lanjut</a></p>
+        </div>
+      </div>
+
+      <!-- untuk paket luar negeri -->
+      <div class="main">
+        <div class="kolom">
+          <p class="deskripsi">Segera beli dan dapatkan diskon 30%</p>
+          <h2>Paket Luar Negeri</h2>
+          <p>Penawaran paket wisata ke Singapura. Berikut adalah fasilitas paket wisata yang kami tawarkan:</p>
+          <ul>
+            <li>Perjalanan ke Singapura selama 5 hari 4 malam.</li>
+            <li>Tiket pesawat kelas ekonomi.</li>
+            <li>Rental mobil (minibus untuk transportasi selama di Singapura).</li>
+            <li>Tiket masuk ke berbagai objek wisata.</li>
+            <li>Konsumsi 3 kali sehari dan snack (disertai 1 kali makan malam di restoran mewah).</li>
+            <li>Voucher belanja di pusat oleh-oleh.</li>
+            <li>Reservasi hotel 5 hari 4 malam (pilihan hotel bisa disesuaikan kebutuhan).</li>
+          </ul>
+          <p><a href="" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
+        </div>
+        <img class='main-img' src="assets/main/travel-concept-with-baggage.jpg" />
       </div>
     </div>
 
+    <!--  START BODY    -->
     <div class="body">
-      <div class="body-container">
+      <div class="container-body">
+        <!-- Body Services -->
+        <h2 class="tagline">Mengapa memesan di <span>TravelDay ?</span></h2>
+        <div class="services">
+          <div class="box-services">
+            <div class="img-services">
+              <img src="assets/body/services-3.png" alt="" />
+              <div class="deskripsi-services">Prosesnya Cepat</div>
+            </div>
+          </div>
+          <div class="box-services">
+            <div class="img-services">
+              <img src="assets/body/services-2.png" alt="" />
+              <div class="deskripsi-services">Terjamin Keamanannya</div>
+            </div>
+          </div>
+          <div class="box-services">
+            <div class="img-services">
+              <img src="assets/body/services-1.png" alt="" />
+              <div class="deskripsi-services">Berbagai Metode</div>
+            </div>
+          </div>
+        </div>
 
+        <!-- Body Card Image -->
+        <h2 class="tagline tagline2">Booking Ticket dan Jelajahi Dunia</h2>
+        <p class="tagline tagline-p">Terbang ke Destinasi Impian Anda</p>
+
+        <div class="card">
+          <!-- Card start -->
+          <div class="box-card">
+            <div class="img-card">
+              <img src="assets/body/card-image1.jpg" alt="" />
+            </div>
+            <div class="details-card">
+              <h2>BALI</h2>
+              <p>Indonesia</p>
+            </div>
+          </div>
+
+          <div class="box-card">
+            <div class="img-card">
+              <img src="assets/body/card-image2.jpg" alt="" />
+            </div>
+            <div class="details-card">
+              <h2>PARIS</h2>
+              <p>France</p>
+            </div>
+          </div>
+
+          <div class="box-card">
+            <div class="img-card">
+              <img src="assets/body/card-image3.jpg" alt="" />
+            </div>
+            <div class="details-card">
+              <h2>DUBAI</h2>
+              <p>Sudia Arabia</p>
+            </div>
+          </div>
+
+          <div class="box-card">
+            <div class="img-card">
+              <img src="assets/body/card-image4.jpg" alt="" />
+            </div>
+            <div class="details-card">
+              <h2>LONDON</h2>
+              <p>England</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="formulir">
+        <div class="container f">
+          <div class="f-title">Pemesanan Tiket di <span class="ft-span">TravelDay</span></div>
+          <hr class="f-hr">
+          <form action="" class="form">
+              <div class="f-nama">
+                  <p>Nama :</p>
+                  <input type="text" name="name" class="i-box" required>
+              </div>
+              <div class="f-email">
+                  <p>Email :</p>
+                  <input type="email" name="email" id="" class="i-box" required>
+              </div>
+              <div class="f-radio">
+                <p>Paket Travel :</p>
+                <input type="radio" name="class" id="" value="1"> Paket Luar Negeri
+                <input type="radio" name="class" id="" value="2"> Paket Dalam Negeri
+              </div>
+              <div class="f-tanggal">
+                <p>Tanggal :</p>
+                <input type="date" name="date" class="i-box" required>
+              </div>
+              <div class="f-jumlah">
+                  <p>Jumlah Tiket :</p>
+              <input type="number" name="Jumlah" id="" class="i-box" required>
+              </div>
+              <div class="f-dari">
+                  <p>Dari :</p>
+                  <input type="text" name="dari" class="i-box" required>
+              </div>
+              <div class="f-tujuan">
+                  <p>Tujuan :</p>
+                  <input type="text" name="tujuan" class="i-box" required>
+              </div>
+              <input type="submit" value="Pesan" class="submit">
+          </form>
       </div>
     </div>
 
-    <div class="formulir">
-      <div class="form-container">
-
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="footer-container">
-
-    </div>
-  </footer>
+    <footer>
+      <ul class="social_icon">
+        <li><a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a></li>
+        <li><a href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a></li>
+        <li><a href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a></li>
+        <li><a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a></li>
+      </ul>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <p>@2023 Travel Day | All Rights Reserved</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

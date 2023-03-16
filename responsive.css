@@ -1,0 +1,17 @@
+@media screen and (max-width: 991.98px) {
+    
+  /* Start Main */
+  .main-wrapper {
+        width: 90%;
+    }
+
+    .main {
+        display: block;
+    }
+
+   .main-img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
