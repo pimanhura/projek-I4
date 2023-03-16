@@ -1,6 +1,6 @@
 @media screen and (max-width: 991.98px) {
     
-  /* Start Main */
+  /* Main */
   .main-wrapper {
         width: 90%;
     }
@@ -14,6 +14,15 @@
         width: 100%;
         height: auto;
     }
+  
+  /* Body */
+  .card{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
   /* formulir */
    .f-title{
     text-align: center;
@@ -27,4 +36,41 @@
   .submit{
     margin-top:30px;
   }
+
+  /*Footer*/
+  footer {
+  text-align: center;
+    padding: 20px 0; /* perubahan hanya disini */
+  }
+  footer .social-icon{
+    display: block;
+    text-align: center;
+  }
+
+  footer .menu{
+    display: block;
+    text-align: center;
+  }
+ footer p{
+    text-align: center;
+  }
+  footer .ul li{
+    text-align: center;
+  }
+
+  .container-body {
+    max-width: 100%;
+  }
+
+  /* perubahan 01 *
+
+  .services {
+    float: none;
+    display: block;
+  }
+
+  .card {
+    border: 1px solid red;
+  }
+ 
 }
