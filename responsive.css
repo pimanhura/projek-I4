@@ -9,7 +9,7 @@
     font-size: 20px;
     color: white;
     top: 0;
-    margin-right: 45px;
+    margin-right: 45px;/
   }
 
   .navbar ul li a{
@@ -52,16 +52,16 @@
   .tagline-p{
     padding-bottom: 10px;
   }
-.box-services{
-width: 100%;
-}
+  .box-services{
+  width: 100%;
+  }
   .img-services img{
     width: 60%;
     padding: 25px;
   }
   .card{
     float: none;
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
   }
   
@@ -98,5 +98,35 @@ width: 100%;
   }
   footer .ul li{
     text-align: center;
+  }
+}
+
+
+
+
+@media screen and (max-width: 670px) {
+
+  .container{
+    width: 80%;
+  }
+
+  .logo{
+    font-size: 20px;
+    color: white;
+    top: 0;
+  }
+
+  .navbar ul li{
+    position: relative;
+    display: inline-block;
+    margin: auto 10px;
+  }
+  
+  .navbar ul li a{
+    font-size: 8px;
+  }
+
+  .navbar {
+    justify-content: flex-start;
   }
 }
