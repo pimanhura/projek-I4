@@ -446,19 +446,18 @@ footer p {
 @media screen and (max-width: 670px) {
 
   .navbar{
-    width: 100%;
+    width: 80%;
   }
 
   .logo{
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     top: 0;
   }
 
   .navbar ul li a{
     width: 0%;
-    font-size: 8px;
-    padding-right: 2px;
+    font-size: 6px;
   }
 
   .navbar {

@@ -1,5 +1,25 @@
 @media screen and (max-width: 991.98px) {
-    
+
+  /* Header   */
+  .navbar{
+    width: 90%;
+  }
+
+  .logo{
+    font-size: 20px;
+    color: white;
+    top: 0;
+  }
+  
+  .navbar ul li a{
+    font-size: 12px;
+    margin-right: 15px;
+  }
+
+  .navbar {
+    justify-content: flex-start;
+  }
+  
   /* Main */
   .main-wrapper {
         width: 90%;
