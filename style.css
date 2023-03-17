@@ -448,4 +448,30 @@ footer p {
 
 
 
+@media screen and (max-width: 465px) {
 
+  .container{
+    width: 100%;
+  }
+
+  
+  .logo{
+    font-size: 20px;
+    color: white;
+    margin-top: -50px;
+  }
+
+  .navbar ul li{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .navbar ul li a{
+    font-size: 8px;
+  }
+
+  .navbar {
+    justify-content: flex-start;
+  }
+}
