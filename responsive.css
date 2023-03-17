@@ -16,11 +16,30 @@
     }
   
   /* Body */
-  .card{
-    display: block;
-    position: relative;
-    width: 100%;
+
+  .container-body {
+    max-width: 100%;
+  }
+  .services {
+    float: none;
+    max-width: 100%;
+    margin: 0 auto;
     height: auto;
+  }
+  .tagline-p{
+    padding-bottom: 10px;
+  }
+.box-services{
+width: 100%;
+}
+  .img-services img{
+    width: 60%;
+    padding: 25px;
+  }
+  .card{
+    float: none;
+    max-width: 100%;
+    margin: 0 auto;
   }
   
   /* formulir */
@@ -57,20 +76,4 @@
   footer .ul li{
     text-align: center;
   }
-
-  .container-body {
-    max-width: 100%;
-  }
-
-  /* perubahan 01 *
-
-  .services {
-    float: none;
-    display: block;
-  }
-
-  .card {
-    border: 1px solid red;
-  }
- 
 }
